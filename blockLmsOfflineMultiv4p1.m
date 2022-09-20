@@ -63,7 +63,7 @@ end
 outW=localW+2*inStep*correlationSum*(1/slidesN*LN);
 % Update the W vector for the next buffer
 localW=outW;
-% Calculate the error to be outputed (clown mode cuz this doesn't work ;()
+% Calculate the error to be outputed 
 outE=desired-micSignalSimulated;
 
 
